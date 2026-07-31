@@ -46,7 +46,7 @@ timeline
 ### B. TCP/IP 4-Layer Model vs. 7-Layer OSI Model
 ```mermaid
 graph TD
-    subgraph OSI 7-Layer Model
+    subgraph OSI ["OSI 7-Layer Model"]
         O7[7. Application Layer]
         O6[6. Presentation Layer]
         O5[5. Session Layer]
@@ -56,7 +56,7 @@ graph TD
         O1[1. Physical Layer]
     end
 
-    subgraph TCP/IP 4-Layer Model
+    subgraph TCPIP ["TCP/IP 4-Layer Model"]
         T4["4. Application Layer<br/>(HTTP, HTTPS, FTP, DNS, SMTP, SSH)"]
         T3["3. Transport Layer<br/>(TCP, UDP)"]
         T2["2. Internet Layer<br/>(IP - IPv4/IPv6, ICMP, ARP)"]
@@ -75,11 +75,11 @@ graph TD
 ### C. Circuit Switching vs. Packet Switching Mechanism
 ```mermaid
 graph TD
-    subgraph Circuit Switching (Legacy Telephone Network)
-        C_Sender[Sender Computer] ===|Dedicated Physical Path Reserved| Sw1[Switch A] === Sw2[Switch B] === C_Receiver[Receiver Computer]
+    subgraph CS ["Circuit Switching (Legacy Telephone Network)"]
+        C_Sender[Sender Computer] == "Dedicated Physical Path Reserved" === Sw1[Switch A] === Sw2[Switch B] === C_Receiver[Receiver Computer]
     end
 
-    subgraph Packet Switching (Modern Internet Protocol)
+    subgraph PS ["Packet Switching (Modern Internet Protocol)"]
         P_Sender[Sender File] --> P1[Packet 1 via Path A]
         P_Sender --> P2[Packet 2 via Path B]
         P_Sender --> P3[Packet 3 via Path C]
@@ -93,7 +93,7 @@ graph TD
 ### D. Data Encapsulation and Decapsulation Protocol Stack
 ```mermaid
 graph TD
-    subgraph Encapsulation Process (Sender Side - Top to Bottom)
+    subgraph EP ["Encapsulation Process (Sender Side - Top to Bottom)"]
         S1["[ Application Data / Message ]"] --> S2["[ TCP Header | Application Data ] (Segment)"]
         S2 --> S3["[ IP Header | TCP Header | Application Data ] (Packet)"]
         S3 --> S4["[ Ethernet Header | IP Header | TCP Header | Application Data | Trailer ] (Frame)"]
