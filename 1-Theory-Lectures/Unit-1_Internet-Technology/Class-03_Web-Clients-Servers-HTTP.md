@@ -188,6 +188,8 @@ Content-Length: 142
 
 ### B. Creating a Basic HTTP Server in Node.js
 
+_(let us understand the concept first, then the code)_
+
 ```javascript
 // Native Node.js HTTP Server demonstrating request parsing & response header setup
 const http = require('http');
