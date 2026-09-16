@@ -33,8 +33,8 @@ By the end of this 2-hour lab session, students will be able to:
 
 ```mermaid
 graph TD
-    subgraph Viewport (Browser Window)
-        subgraph Centered Container div (width: 80%, margin: 0 auto, bg: #f2f2f2)
+    subgraph "Viewport (Browser Window)"
+        subgraph "Centered Container div (width: 80%, margin: 0 auto, bg: #f2f2f2)"
             H1["Heading: Centered Container Box"]
             CARD1["Div Class: .highlight-card (Light blue box)"]
             CARD2["Div Class: .highlight-card (Light blue box)"]
