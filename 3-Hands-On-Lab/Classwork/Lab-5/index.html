@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>External CSS & Centered Container Example - Lab 05</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f5;
+            margin: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-container">
+        <h1>Centralized CSS Styling Demo</h1>
+        <p class="bold-text">Department of Computer Sience & Applications</p>
+        <div class="highlight-card">
+            <h2>Web Technology Module</h2>
+            <p>
+                This card demonstrates <span style="color: #ff0000; text-decoration: underline;">inline CSS overrides</span> combined with shared external class styling.
+            </p>
+        </div>
+        <div class="highlight-card">
+            <h2>Cloud Computing Module</h2>
+            <p class="bold-text">
+                Modifying the style.css file instantly updates all cards sharing the .highlight-card class!
+            </p>
+        </div>
+        <div class="alert-card">
+            Notice: Practical Exam Registration Deadline is Friday
+        </div>
+    </div>
+</body>
+</html>
