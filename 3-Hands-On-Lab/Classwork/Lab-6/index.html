@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>BCA Student Portal Registration Form</h1>
+    <form>
+        <!-- Task 1: Creating Fieldsets for Personal Information -->
+         <fieldset>
+            <legend>Personal Information</legend>
+            <p>                
+                <label for="fname">Full Name:</label>
+                <input type="text" id="fname" name="fullname">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </p>
+            <p>
+                <label>Gender</label>
+                <input id="m" type="radio" value="male" name="gender">
+                <label for="m">Male</label>
+                <input id="f" type="radio" value="female" name="gender">
+                <label for="f">Female</label>
+            </p>
+         </fieldset>
+        <!-- Task 2: Creating Fieldset for Academic Details -->
+         <fieldset>
+            <legend>Academic Information</legend>
+            <label id="stream">Branch:</label>
+            <p>
+                </p><select name="branch" id="stream">
+                    <option value="bcc">Cloud Computing</option>
+                    <option value="sacs">Cyber Security</option>
+                    <option value="bcap">BCA Plain</option>
+                    <option value="bcapai">BCA Plain with AI</option>
+                </select>
+            </p>
+            <p>
+                <label>Interests:</label>
+                <input type="checkbox" name="interests" value="WebTech" id="webtech">
+                <label for="webtech">Web Technology</label>
+                <input type="checkbox" name="interests" value="CloudInfra" id="ci">
+                <label for="ci">Cloud Infrastructure</label>
+                <input type="checkbox" name="interests" value="VersionControl" id="vc">
+                <label for="vc">Version Controlling</label>
+                <input type="checkbox" name="interests" value="GameDev" id="gd">
+                <label for="gd">Game Development</label>
+            </p>
+            <p>
+                <label for="address">Address:</label>
+                <textarea name="address" id="address" rows="3"></textarea>
+            </p>
+         </fieldset>
+        <!-- Task 3: Adding Submit and Reset Buttons -->
+         <p>
+            <button type="submit">Go!</button>
+            <button type="reset">Clear</button>
+         </p>
+    </form>
+</body>
+</html>
