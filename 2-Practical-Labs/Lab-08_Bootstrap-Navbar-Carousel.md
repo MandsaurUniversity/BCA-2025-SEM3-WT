@@ -118,14 +118,14 @@ graph TD
         <!-- Carousel Slides -->
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
-                <img src="https://via.placeholder.com/1200x400/003366/ffffff?text=Mega+Monsoon+Electronics+Sale+-+Up+to+50%25+OFF" class="d-block w-100" alt="Sale Banner">
+                <img src="https://placehold.co/1200x400/003366/ffffff?text=Mega+Monsoon+Electronics+Sale+-+Up+to+50%25+OFF" class="d-block w-100" alt="Sale Banner">
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Mega Electronics Sale</h2>
                     <p>Upgrade your developer gear today with exclusive student discounts.</p>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="https://via.placeholder.com/1200x400/008CBA/ffffff?text=Next-Gen+Cloud+Computing+Workstations" class="d-block w-100" alt="Cloud Banner">
+                <img src="https://placehold.co/1200x400/008CBA/ffffff?text=Next-Gen+Cloud+Computing+Workstations" class="d-block w-100" alt="Cloud Banner">
                 <div class="carousel-caption d-none d-md-block">
                     <h2>High-Performance Laptops</h2>
                     <p>Pre-configured for Docker, Kubernetes, and Web Development.</p>

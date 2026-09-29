@@ -105,7 +105,7 @@ graph TD
             <!-- Step 3: Product Card 1 -->
             <div class="col-12 col-sm-6 col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Laptop">
+                    <img src="https://placehold.co/300x200" class="card-img-top" alt="Laptop">
                     <div class="card-body">
                         <h5 class="card-title">Pro Developer Laptop</h5>
                         <p class="card-text text-muted">Intel i7, 16GB RAM, 512GB SSD. Perfect for Web & Cloud coding.</p>
@@ -118,7 +118,7 @@ graph TD
             <!-- Product Card 2 -->
             <div class="col-12 col-sm-6 col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Smartphone">
+                    <img src="https://placehold.co/300x200" class="card-img-top" alt="Smartphone">
                     <div class="card-body">
                         <h5 class="card-title">5G Smartphone Pro</h5>
                         <p class="card-text text-muted">6.7" AMOLED Display, 128GB Storage, Triple Camera.</p>
@@ -131,7 +131,7 @@ graph TD
             <!-- Product Card 3 -->
             <div class="col-12 col-sm-6 col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Headphones">
+                    <img src="https://placehold.co/300x200" class="card-img-top" alt="Headphones">
                     <div class="card-body">
                         <h5 class="card-title">Wireless Headphones</h5>
                         <p class="card-text text-muted">Active Noise Cancellation, 30 Hours Battery Backup.</p>
